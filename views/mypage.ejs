@@ -1,0 +1,41 @@
+<%- include("partials/header") -%>
+
+<section class="mypage show-animate container-fluid" id="mypage">
+    <h2 class="heading">my <span>page</span><span class="animate scroll" style="--i:1;"></span></h2>
+
+    <div class="mypage-img">
+        <img src="images/a.png" alt="">
+        <span class="circle-spin"></span>
+        <span class="animate scroll" style="--i:2;"></span>
+    </div>
+
+    <div class="mypage-content">
+        <h3><span class="animate scroll" style="--i:3;"><%= userName %></span></h3>
+        <p>Read regularly: The more you read, the better you get at it. Set aside a few minutes every day to read something in English, such as news articles, books, or online content.
+            Choose appropriate materials: Choose materials that match your reading level. Start with simpler texts and gradually move on to more challenging ones. Reading materials that interest you also helps to keep you motivated.
+            <span class="animate scroll" style="--i:4;"></span>
+        </p>
+
+        <div class="recommendedProblem">
+            <ul>
+                <h3>recommended problems</h3>
+                <li>
+                    <p>Problem 32 : <a href="#">Title</a></p>
+                </li>
+                <li>
+                    <p>Problem 61 : <a href="#">Title</a></p>
+                </li>
+                <li>
+                    <p>Problem 92 : <a href="#">Title</a></p>
+                </li>
+            </ul>
+        </div>
+
+        <div class="btn-box btns">
+            <a href="/question" class="btn">Start</a>
+            <span class="animate scroll" style="--i:5;"></span>
+        </div>
+    </div>
+</section>
+
+<%- include("partials/footer") -%>

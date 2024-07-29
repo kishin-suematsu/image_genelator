@@ -1,0 +1,55 @@
+
+<%- include("partials/header") -%>
+
+    <section class="home">
+      <main>
+        <section class="showcase">
+          <form id="image-form">
+            <h1>Please enter below the photo instructions you would like AI to create.<div class=""></div></h1>
+            <div class="form-control">
+              <input type="text" id="prompt" placeholder="Enter Text" />
+            </div>
+            <!-- size -->
+            <div class="form-control">
+              <select name="size" id="size">
+                <option value="small" >Small</option>
+                <option value="medium" selected>Medium</option>
+                <!-- <option value="large">Large</option> -->
+              </select>
+            </div>
+            <button type="submit" class="btn btn-lg btn-primary">Generate</button>
+          </form>
+        </section>
+  
+        <section class="image">
+          <div class="image-container">
+            <h2 class="msg"></h2>
+            <img src="" alt="" id="image" />
+          </div>
+          <p>Press and hold the image to download it.</p>
+
+          <a href="" download id="my-link">
+            <button>Download Image</button>
+          </a>
+          
+
+
+          
+
+        </section>
+      </main>
+    </main>
+
+        <!-- <div class="home-sci">
+            <a href="https://www.youtube.com/watch?v=HE28vN_n32U&t=9s"><i class='bx bxl-youtube'></i></a>
+            <a href="https://www.instagram.com/"><i class='bx bxl-instagram'></i></a>
+            <a href="https://www.facebook.com/"><i class='bx bxl-facebook'></i></a>
+        </div> -->
+
+        <span class="home-imgHover"></span>
+    </section> 
+
+    <div class="spinner"></div>
+
+
+  <%- include("partials/footer") -%>
